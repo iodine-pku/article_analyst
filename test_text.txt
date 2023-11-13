@@ -1,0 +1,146 @@
+The technology underpinning 5G
+Innovation from the component to the system level is necessary to realize the full potential of the next generation
+of wireless communication.
+The strong uptake in the Internet of Things (IoT) due to more affordable computing, storage and sensors has
+led to the generation of massive amounts
+of data, creating both challenges and
+opportunities for industry. For instance,
+global mobile data traffic is increasing at
+two times the rate of IP (internet protocol)
+traffic, driven by a proliferating number
+of connected devices and an intense thirst
+for rich media services and experiences.
+In 2020, 0.5 zettabytes (1021 bytes) of
+mobile data are expected to be used1. As a
+result, today’s networks will not be able to
+handle the variety and volume of data that
+are emerging.
+5G is the next generation of wireless
+mobile broadband networks and is expected
+to meet this challenge. 5G is not simply
+an evolution of 4G. It requires major
+improvements over 4G throughput and
+capacity, and is the first wireless protocol to
+address the inclusion of the massive number
+of machines/things in the network. It will
+optimize the network for human–human
+communication, and will deliver a solution
+for machine-type communication.
+Requirements for 5G
+5G addresses three classes of
+communication services: enhanced mobile
+broadband (eMBB), which requires extreme
+data rates of tens of Gbps and capacities
+of 10 Tbps per km2; massive machinetype communication (mMTC), which
+requires low-power 10-year battery life, a
+wide transmission area for hard-to-reach
+locations, ultra-low complexity of tens of
+kbps and ultra-high density of 1 million
+nodes per km2; and ultra-reliable lowlatency communication (URLLC), which
+requires less than 1-ms latency with at
+least 99.999% reliability2. This diverse and
+divergent set of requirements has driven 5G
+to leverage different frequency spectrums:
+<3 GHz for mMTC, and <6 GHz and
+selected millimetre-wave bands for eMBB
+and URLLC.
+Spectrum is the lifeblood of wireless
+communication. 5G requirements demand
+the need for more efficient use of existing
+spectra, as well as exploring previously
+unavailable spectra in low-, mid- and
+high-frequency bands3. The 3rd Generation
+Partnership Project (3GPP) cellular standard
+has introduced a new air interface dubbed
+5G NR (New Radio). This unified air
+interface is designed to deliver high data
+rates, ultra-low latency, efficiency and
+scalability, and high reliability.
+Core technologies for 5G
+Addressing the capacity and throughput
+for eMBB will require developments in:
+multi-antenna processing such as massive
+multiple-input multiple-output (mMIMO)
+antenna systems; new technology solutions
+for the high-band spectrum such as
+centimetre wave (<30 GHz) and millimetre
+wave; new modulation and coding schemes
+such as non-orthogonal multiple access;
+and a software-defined network to allow for
+control-plane/data-plane separation. mMTC
+will require low-energy systems both at
+device and infrastructure level, whereas
+URLLC will need additional innovation and
+development for new coordinated system
+topologies, multiple radio access technology
+for reliable access and intelligent traffic
+routing, and device–device communication
+to lower the latency.
+Enhanced mobile broadband
+Technologies required for eMBB in the
+mid-frequency bands of <6 GHz are
+more evolutionary with respect to 4G/
+Long-Term Evolution (LTE), even though
+mMIMO is required to improve the capacity
+and throughput per number of users. An
+added complexity for 5G is that it has to be
+consistent with the legacy protocols and, for
+the first time, it must support the proposed
+new spectrums in the centimetre-wave and
+millimetre-wave frequencies. This indicates
+that beam management will be a key area
+for optimization as part of the mMIMO
+solution in the high bands.
+Beam management, which includes
+beamforming and beam tracking, allows
+access to a large spatial-spectrum resource.
+Latency-sensitive applications, and support
+for large numbers of users at high bands at
+both transmit and receive points, have led
+to a re-examination of the beamforming
+architecture, which is typically based
+on analogue circuits at millimetre-wave
+frequencies. Analogue beamforming uses
+a single radio-frequency chain per antenna
+array with analogue phase shifters and
+combiner networks to form the beam2
+This solution provides cost and powerconsumption advantages. However, the
+latency for beam search and the
+capacity coverage per user produce a
+suboptimal solution.
+On the other hand, a fully digital
+beamforming architecture leverages a
+radio-frequency chain for each antenna,
+providing the full array antenna signals to
+digital algorithms with capability to steer
+and separate multiple beams2. The result is
+fast beam search and MIMO capability, with
+the caveat of higher cost and power. Hybrid
+beamforming, a cross between analogue
+and digital, is an alternative solution with
+a mix of the benefits and drawbacks of the
+other two options. Innovation in architecture
+and circuit design, as well as the use of
+advanced processing nodes, is required
+to realize optimum latency and efficient
+spatial multiplexing through a fully digital
+beamforming solution with reduced power
+consumption and minimum system-level cost.
+We have previously demonstrated
+complementary metal–oxide–semiconductor
+(CMOS) transceivers to support digital
+beam management. This approach uses
+direct conversion radio-frequency chains
+and baseband beamforming, in a scalable
+phased array4 that is fabricated in Intel’s
+22-nm low-power fin field-effect transistor
+technology5. Further power reduction at the
+architectural level requires a closer look at
+transceiver linearity and noise specifications,
+data converter architectures, and
+partitioning of digital processing between
+the radio-frequency integrated circuit
+and the baseband system. The advent of
+machine learning could also help reduce the
+complexity of beam formation and tracking
+through efficient resource management.
