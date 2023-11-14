@@ -8,7 +8,7 @@ The configurations of this GPT can be found at `configuration.json`. The instruc
 Visit [this link](https://chat.openai.com/g/g-t9ahwkCSD-article-analyst
 ) (requires ChatGPT plus subscription) and upload the files you want to analyze and ask questions. 
 
-Alternatively, build a custom GPT in your account using the configurations and instructions provided in this repository.
+Alternatively, build a custom GPT in your account using the configurations and instructions provided in this repository. (It seems you have to manually configure the GPT in web interface.)
 
 # Contribute 
 You're more than welcome to contribute to this project. Please open an issue or pull request if you have any suggestions or improvements.
