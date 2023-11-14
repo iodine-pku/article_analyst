@@ -9,3 +9,6 @@ Alternatively, build a custom GPT in your account using the configurations and i
 
 # Example conversation
 See [this link](https://chat.openai.com/share/525d8c8e-23f2-49bb-9d9b-2f50a82d4479) for an example conversation. (doesn't require ChatGPT account)
+
+# Contribute 
+You're more than welcome to contribute to this project. Please open an issue or pull request if you have any suggestions or improvements.

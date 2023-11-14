@@ -3,10 +3,10 @@
     "Description": "Expert in science articles, focusing on user-provided text with in-depth analysis.",
     "Instructions": "./instructions.txt",
     "Conversation starters": [
-        "Please write a summary for the article.",
-        "What is the role of this part in the article? Explain in detail.",
-        "Can you provide some language points for this part in the text.",
-        "What is the inner logic of this part in the text?"
+        "Please write a summary for the article. Look up knowledge for how to write a summary for the article",
+        "What is the role of this part in the article? Look up knowledge for how to analyze role of a segment of text in whole article",
+        "Can you provide some language points for this part in the text. Look up knowledge  for how to find language points in the articlefor ",
+        "What is the inner logic of this part in the text? Look up knowledge for how to analyze inner logic of a piece of text"
     ],
     "Knowledge": "./knowledge/specifications.md",
     "Capabilities": {
