@@ -1,4 +1,4 @@
-![Preview](assets/screenshot.png)
+![Preview](assets/screenshot_improved.png)
 # Introduction
 This is a customized GPT using Openai's GPT-4 to analyze scientific news and scientific articles. The GPT is specially tuned to answer questions on summarizing the article, analyze inner logic of a piece of text, analyze role of a segment of text in whole article, and provide language points for English learners at senior undergrad level.
 
